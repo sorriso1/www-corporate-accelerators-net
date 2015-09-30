@@ -6,12 +6,17 @@ fullwidth: true
 notopnav: true
 ---
 {% assign activePrograms = 0 %}
+{% assign lastUpdate = "1420102800" %}
 {% for accelerator in site.data.Accelerators %}
+  {% capture acceleratorModification %}{{accelerator['Modified'] | date: '%s'}}{% endcapture %}
+  {% if acceleratorModification > lastUpdate %}
+    {% capture lastUpdate %}{{ acceleratorModification }}{% endcapture %}
+  {% endif %}
   {% if accelerator['Status'] == "Active" or accelerator['Status'] == "Unclear" %}
     {% capture activePrograms %}{{ activePrograms | plus:1 }}{% endcapture %}
   {% endif %}
 {% endfor %}
-<p>Below you'll find a full archive of all {{ site.data.Accelerators.size }} Corporate Accelerators that we've ever come across. There is also a list that only shows the {{ activePrograms }} <a href="index.html">active programs</a> available. We aim to keep this data as <a href="/update.html">up-to-date</a> as possible. Please <a href="/update.html">help us</a> if you come across new programs!</p>
+<p>Below you'll find a full archive of all {{ site.data.Accelerators.size }} Corporate Accelerators that we've ever come across. There is also a list that only shows the {{ activePrograms }} <a href="index.html">active programs</a> available. We aim to keep this data as <a href="/update.html">up-to-date</a> as possible. Please <a href="/update.html">help us</a> if you come across new programs! Latest update: {{ lastUpdate | date: "%b %d, %Y" }}.</p>
 
 <table id="ca_database" role="grid" class="display">
   <thead>
