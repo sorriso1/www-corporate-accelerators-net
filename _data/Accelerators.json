@@ -1736,8 +1736,9 @@
       "NAICS Sector":33,
       "Sector description":"Manufacturing",
       "Self-description":"Collaboration Program",
+      "Use self-description":"True",
       "Term":"6 months",
-      "Cohort-based":"Yes, regularly?",
+      "Cohort-based":"Yes, regularly",
       "Funding":"$50K",
       "Equity":"No",
       "Education":"Yes, mentors and lab facilities",
@@ -1757,7 +1758,7 @@
       "Sources":["http://www.globes.co.il/en/article-samsung-founding-startup-accelerator-in-yakum-1001050331"],
       "Comment":"",
       "Created": "2015-08-02 09:00:00",
-      "Modified": "2015-08-02 09:00:00"
+      "Modified": "2016-10-11 09:00:00"
    },
    {
       "Company":"Media-Saturn Group",
