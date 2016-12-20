@@ -89,7 +89,11 @@ Website: <a href="{{ page.accelerator['URL'] }}">{{ page.accelerator['Name'] }}<
       </tr>
       <tr>
         <td>NAICS</td>
-        <td>{{ page.accelerator['NAICS'] | noinfo }}</td>
+        <td>{{ page.accelerator['NAICS'] | noinfo }}
+      {% if page.accelerator['NAICS Code'] != "" and page.accelerator['NAICS Code'] != "No" %}
+          ({{ page.accelerator['NAICS Code'] }})
+      {% endif %}
+        </td>
       </tr>
       {% if page.accelerator['Index'] != "" and page.accelerator['Index'] != "No" %}
       <tr>
