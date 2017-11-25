@@ -1759,6 +1759,41 @@
       "Created": "2016-02-21 09:00:00",
       "Modified": "2016-02-21 09:00:00"
    },
+   
+   {
+      "Company":"Shell Eastern Petroleum (Royal Dutch Shell)",
+      "Name":"Idea Refinery",
+      "Index":"No",
+      "NAICS":"Newspaper Publishers",
+      "NAICS Code":51111,
+      "NAICS Sector":51,
+      "Sector description":"Information",
+      "Self-description":"Accelerator",
+      "Term":"3 months",
+      "Cohort-based":"Yes, regularly (freq. not yet fixed)",
+      "Funding":"",
+      "Equity":"",
+      "Education":"Yes, mentors",
+      "Office space":"Yes",
+      "Pitch day":"Yes",
+      "Cohort info":"No",
+      "CVC data available":"",
+      "Goal":"This collaboration is aimed at building a strong pipeline of high growth, innovation-driven tech startups to address challenges of the media industry.",
+      "Areas of Interest":"- Generating energy – Renewable\n - low-carbon and waste energy recapture\n - sensors and monitoring
+solutions\n - News & content distribution\n - Using energy smartly – new forms of transport\n - Transporting energy – Low energy ways to transport gas/bitumen \n - 
+      "Partner":"ImpacTech and NUS Enterprise",
+      "Company HQ":"Singapore",
+      "Accelerator locations":"Singapore",
+      "Started":2015,
+      "Status":"Active",
+      "Last class":"",
+      "URL":"http://www.shell.com.sg/energy-and-innovation/make-the-future-singapore/start-up-accelerator/",
+      "Sources":[],
+      "Comment":"1st cohort launched in October , 2017",
+      "Created": "2015-06-17 09:00:00",
+      "Modified": "2015-06-17 09:00:00"
+   },
+   
    {
       "Company":"Singapore Press Holdings",
       "Name":"SPH Plug and Play",
